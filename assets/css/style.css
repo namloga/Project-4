@@ -254,6 +254,10 @@ nav {
   margin: 71px 0 24px;
 }
 
+.hero__text .desc-header {
+  width: 391px;
+}
+
 .action-hero {
   display: flex;
   align-items: center;
