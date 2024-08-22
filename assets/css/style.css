@@ -332,7 +332,10 @@ nav {
 }
 
 .about .container {
-  padding-top: 190px;
+}
+
+.about .wrapper {
+  align-items: flex-end;
 }
 
 .about__text {
@@ -359,13 +362,21 @@ nav {
   display: flex;
   align-items: center;
   gap: 38px;
-  column-gap: 34px;
+  margin-bottom: 27px;
+}
+
+.form-row + .form-row {
+  margin-bottom: 50px;
 }
 
 .box {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.box-margin {
+  margin-left: 26px;
 }
 
 .box label {
@@ -397,7 +408,6 @@ nav {
   border-color: var(--btn-color);
 }
 
-
 .box [type="checkbox"]:checked ~ label::after {
   content: "";
   display: inline-block;
@@ -411,3 +421,70 @@ nav {
   rotate: -45deg;
 }
 
+.about__img {
+  width: 50%;
+  position: relative;
+}
+
+.bg__img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 121px;
+  width: 494px;
+  height: 336px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+}
+
+.bg__img img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+
+.bg-text {
+  position: absolute;
+  left: 35px;
+  top: -67px;
+  width: 136px;
+  height: 156px;
+  border-radius: 16px;
+  background-color: #5bd6e2;
+  box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
+}
+
+.bg-text h3 {
+  margin: 31px 0 14px;
+  font-size: 4.2rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.bg-text__desc {
+  width: 83px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #c6f4f9;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.decoration .feet-cat {
+  display: block;
+  position: absolute;
+  top: -108px;
+  left: 118px;
+}
+
+.decoration .rain {
+  display: block;
+  position: absolute;
+  top: -65px;
+  right: -112px;
+}
