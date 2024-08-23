@@ -150,6 +150,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  z-index: 99;
   position: absolute;
   top: 0;
   left: 0;
@@ -164,6 +165,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  z-index: 100;
   position: absolute;
   top: 302px;
   right: 0;
@@ -176,6 +178,7 @@ nav {
 
 .hero__img-pets {
   position: absolute;
+  z-index: 101;
   right: 171px;
   top: 426px;
   background-color: #fff;
@@ -255,6 +258,18 @@ nav {
 }
 .pets__text .line-small {
   width: 39px;
+}
+
+.hero__img .decoration .deco-circle {
+  position: absolute;
+  right: 132px;
+  top: 15px;
+}
+
+.hero__img .decoration .deco-circut {
+  position: absolute;
+  left: -61px;
+  bottom: 30px;
 }
 
 .separate {
@@ -487,4 +502,70 @@ nav {
   position: absolute;
   top: -65px;
   right: -112px;
+}
+
+/* features */
+
+.features {
+  margin-top: 43px;
+  background-color: #fff9e2;
+}
+
+.features .wrapper {
+  padding-top: 93px;
+}
+
+.features__img {
+  position: relative;
+}
+
+.bg__img-features {
+  width: 458px;
+  height: 500px;
+  border-radius: 18px;
+  background-color: #c4c4c4;
+  box-shadow: 0px 3px 63px 0px rgba(153, 183, 208, 0.59);
+  overflow: hidden;
+}
+
+.bg__img-features .decoration-features .deco {
+}
+
+.decoration-features .deco-line-1 {
+  position: absolute;
+  top: 32px;
+  right: -22px;
+}
+
+.decoration-features .deco-line-2 {
+  position: absolute;
+  top: -16px;
+  right: 12px;
+}
+
+.decoration-features .deco-circle {
+  position: absolute;
+  bottom: -54px;
+  right: -43px;
+}
+
+.decoration-features .deco-triangle {
+  position: absolute;
+  bottom: 210px;
+  right: -40px;
+}
+
+.features__text {
+  width: 50%;
+  margin-left: 98px;
+  margin-top: 52px;
+}
+
+.heading-features {
+  margin-bottom: 24px;
+}
+
+.desc-features {
+  margin-bottom: 52px;
+  width: 511px;
 }
