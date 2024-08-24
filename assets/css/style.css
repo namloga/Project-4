@@ -351,6 +351,7 @@ nav {
 
 .about .wrapper {
   align-items: flex-end;
+  padding-bottom: 93px;
 }
 
 .about__text {
@@ -507,7 +508,6 @@ nav {
 /* features */
 
 .features {
-  margin-top: 43px;
   background-color: #fff9e2;
 }
 
