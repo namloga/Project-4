@@ -647,4 +647,126 @@ nav {
   font-weight: 500;
   color: #FF5D31;
   text-decoration: underline;
+  text-underline-offset: 5    px;
+}
+
+.services {
+  background-color: #FFF6ED;
+}
+
+.services-text {
+  padding-top: 68px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.desc-services {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.services .wrapper {
+  margin-top: 71px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__column {
+
+}
+
+.box-services {
+  background-color: #fff;
+  border-radius: 10px;
+border: 2px rgba(255, 188, 122, 0.26);
+}
+
+.box-services:nth-child(even) {
+  margin: 24px 0;
+  
+}
+
+.box-services .content {
+  display: block;
+  padding: 30px 22px 30px 28px;
+}
+
+.title-services {
+  position: relative;
+  padding-left: 12px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+.title-services::before {
+  position: absolute;
+  left: 2px;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(90deg, #FF5B2E 0.39%, #FFA187 100.29%);
+}
+
+.desc-services {
+  margin: 18px 0 24px;
+  width: 244px;
+  overflow: hidden;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Poppins",sans-serif;
+  line-height: 1.8;
+  color: var(--text-color)
+}
+
+.more-services {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #34396A;
+}
+
+.more-services i{
+  margin-left: 6px;
+  color: var(--btn-color)
+}
+
+.services__column-center {
+  align-self: flex-end;
+  margin-bottom: 62px;
+}
+
+.services-bg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 410px;
+  height: 350px;
+  border-radius: 10px;
+background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
+}
+
+.services-bg img {
+  display: block;
+  object-fit: cover;
+  /* width: 447px;
+  height: 621px; */
+}
+
+.view-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  padding-bottom: 100px;
+}
+
+.btn-services {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 31px;
+  border: 1px solid rgba(255, 91, 46 , 0.6);
+  background-color: transparent;
+  color: #FF5B2E;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
