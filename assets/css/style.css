@@ -657,12 +657,12 @@ nav {
 .services-text {
   padding-top: 68px;
   text-align: center;
-  margin: 0 auto;
 }
 
-.desc-services {
+.desc.desc-services {
   font-weight: 600;
   margin-bottom: 12px;
+  margin: 0 auto;
 }
 
 .services .wrapper {
@@ -770,3 +770,107 @@ background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
   color: #FF5B2E;
   box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
+
+.groommers {
+  background: #FFFAF5;
+}
+
+.groommers__text {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.desc-groommers {
+  margin: 0 auto;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.groommers .wrapper {
+  padding-top: 78px;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.groommer__avatar {
+
+}
+
+.groomer-bg {
+  position: relative;
+  width: 234px;
+  height: 266px;
+  border-radius: 129.5px;
+  background: linear-gradient(180deg, #90CCFF 0%, #59A8EB 95.96%);
+}
+
+.groomer-bg img {
+  border-radius: 129.5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.groomer-parabol.parabol-odd{
+  position: absolute;
+  bottom: 6px;
+  left: -17px;
+  display: block;
+  object-fit: cover;
+}
+
+.groomer-parabol.parabol-even{
+  position: absolute;
+  top: 6px;
+  left: -17px;
+  display: block;
+  object-fit: cover;
+}
+
+.grommer__content {
+  text-align: center;
+}
+
+.job {
+  margin-top: 29px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.groomer-name {
+  font-size: 2.2rem;
+  text-align: center;
+
+  font-weight: 600;
+  color: var(--primary-color)
+}
+
+.view-groommers {
+  margin-top: 48px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  padding-bottom: 100px;
+}
+
+.btn-groommers {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 31px;
+  border: 1px solid rgba(255, 91, 46 , 0.6);
+  background-color: transparent;
+  color: #FF5B2E;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+
+/* .groomer-bg::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 234px;
+  height: 266px;
+  border-radius: 129.5px;
+  background: linear-gradient(180deg, #90CCFF 0%, #59A8EB 95.96%);
+} */
+
