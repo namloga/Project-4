@@ -1026,4 +1026,125 @@ background: linear-gradient(180deg, #9DF1FB 0%, #73D0DB 108.14%);
   margin-top: 18px;
 }
 
+/* reviews */
 
+.reviews {
+  background-color: #FFFAF5;
+  position: relative;
+}
+
+.reviews-action {
+}
+
+.reviews-action .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  color: var(--btn-color);
+  background-color: transparent;
+  border: 1px solid rgba(255,91,46, 0.6);
+  transition: all .2s;
+}
+
+.reviews-action .btn:hover {
+  background-color: var(--btn-color);
+  color: #fff
+}
+
+.reviews-action .btn.btn-next {
+  position: absolute;
+    top: 42%;
+    right: 115px;
+    transform: translateY(-50%);
+}
+
+.reviews-action .btn.btn-previous {
+  position: absolute;
+    top: 42%;
+    left: 145px;
+    transform: translateY(-50%);
+}
+
+.reviews-action .btn i {
+  font-size: 1.6rem;
+}
+
+.reviews .wrapper {
+  position: relative;
+  padding-top: 130px;
+  align-items: center;
+}
+
+.reviews__img {
+  margin-left: 10px;
+}
+
+.reviews__img--bg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 190px;
+  width: 274px;
+  height: 350px;
+  border-radius: 137px;
+  background: #FFDA54;
+}
+
+.reviews__img--bg img {
+  border-radius: 137px;
+}
+
+.desc-reviews {
+  margin: 24px 0 34px;
+  width: 553px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000
+}
+
+.reviews-name {
+  position: relative;
+  padding-left: 28px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #282828;
+}
+
+.reviews-name::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+}
+
+.dots-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 130px;
+  gap: 10px;
+}
+
+.dot-item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--btn-color);
+  transition: all 0.2s;
+}
+
+.dot-item:hover {
+  width: 24px;
+  border-radius: 99px;
+  background-color: var(--btn-color);
+}
